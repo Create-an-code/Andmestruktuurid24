@@ -1,3 +1,6 @@
+#Lisamise ja eemaldamise operatsioonide keerukus on O(1) ehk konstantne
+#Keerukus on konstantne, sest me ei pea otsima elementi, mida eemaldada või lisama, vaid saame seda teha otse listi lõpust või algusest
+
 #Defineerime Stacki klassina
 class Stack:
     def __init__(self):
