@@ -1,0 +1,8 @@
+Kuidas näeks loend [8, 3, 5, 4, 7, 6, 2] välja pärast esimest läbimist antud algoritmide
+puhul
+
+a) Bubble sort [3, 5, 4, 7, 6, 2, 8]
+
+b) Selection sort [2, 3, 5, 4, 7, 6, 8]
+
+c) Insertion sort , Ei tea, kumba mõtlete, aga esimene vahetus [3, 8, 5, 4, 7, 6, 2]. Sest terviklik läbimine tähendaks juba listi sortimist

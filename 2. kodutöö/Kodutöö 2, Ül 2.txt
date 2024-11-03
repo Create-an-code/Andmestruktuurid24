@@ -1,0 +1,38 @@
+Selection Sorti visualiseerimine
+
+
+Esimene loop
+[29, 15, 56, 77, 18]
+
+Liigume läbi listi, saame esimeseks väikseimaks numbriks 29. Liikudes järgmisele indeksile, on väikseimaks 15.
+Liigume läbi listi, aga ei leia väiksemat numbrit kui 15. Seega vahetame ära esimesel indeksil oleva numbri ja 15ne.
+
+Tulemus:
+[15, 29, 56, 77, 18]
+
+
+Teine loop
+
+Liigume läbi listi, aga seekord postisoonilt 1. Leiame väikseima numbri, milleks on 18 ning vahetame ära
+teisel indeksil (esimesel sorteerimata osa listil) oleva numbriga.
+
+Tulemus:
+[15, 18, 56, 77, 29]
+
+
+Kolmas loop
+
+Liigume läbi sorteerimata listi osa. Leiame väikseima, milleks on 29 ning vahetame selle ära 56ga.
+
+Tulemus:
+[15, 18, 29, 77, 56]
+
+
+Neljas ja viimane loop
+
+Liigume läbi viimase kahe elemendi. Leiame väikseima, milleks on 56 ning vahetame esimese sorteerimata
+listi osaga. 
+
+Tulemus:
+[15, 18, 29, 56, 77]
+ 
