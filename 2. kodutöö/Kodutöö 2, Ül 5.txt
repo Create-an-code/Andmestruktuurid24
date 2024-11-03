@@ -1,0 +1,9 @@
+a) Defineeri, mida tähendab, et sortimisalgoritm on "stabiilne." Anna näide stabiilsest
+sortimisalgoritmist antud loendist.
+sortimisalgoritm on stabiilne kui listis olevate elementide järjekord jääb sama väärtuse korral püsima. Näiteks kui on list (märgid selgituse jaoks, list ainult numbrid) [1*,0,1/,2/,3,2*], siis pärast sortimist on list [0,1*,1/,2/,2*,3].
+Antud loendist on stabiilne näiteks Insertion Sort, sest vahetab elementide asukohta ainult juhul kui eelnev element on väiksem kui vaadeldav element.
+
+
+b) Selgita "adaptiivsuse" kontseptsiooni sortimisel. Millistest eelmainitud
+sortimisalgoritmidest peetakse adaptiivseks?
+Adaptiivsus tähendab, et sorteerimisalgoritm töötab kiiremini kui ette antud list on juba pooleldi sorteeritud. Näiteks ka eelmainitud Insertion Sort on adaptiivne, sest "sorteerib" juba sorteeritud listi keerukusega O(n) ehk peab ainult kontrollima et kõik elemendid on õigel kohal.

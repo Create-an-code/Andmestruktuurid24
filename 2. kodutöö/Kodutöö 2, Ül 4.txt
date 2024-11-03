@@ -1,0 +1,8 @@
+a) Millistel eelmainitud sortimisalgoritmidel on halvimal juhul ajakompleksus
+O(n^2)?
+Kõigil eelmainitud sortimistalgoritmidel (Bubble sort, Selection sort ja Insertion sort) on halvimal juhul ajakompleksus O(n^2).
+
+
+b) Milline sortimisalgoritm oleks kõige sobivam sortimaks loendit täisarvudega, mis
+jäävad vahemikku 1 kuni 100 ja miks?
+Kuna on teada et vahemik on 1st 100ni, siis sobiks kõige paremini Counting Sort. Counting Sort kasutab key-value paare, et lugeda kokku mingi kindla arvu esinemiskorrad ning selle pealt läheb läbi vana listi, vaatab key-value paarilt indeksi uue listi elemendi asukoha jaoks ja sisestab arvu uude listi.

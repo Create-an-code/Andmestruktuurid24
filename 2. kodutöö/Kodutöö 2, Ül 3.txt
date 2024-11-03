@@ -1,0 +1,31 @@
+Antud on osaliselt sorteeritud loend: [12, 11, 13, 5, 6, 7]. Rakenda Insertion Sort
+algoritmi. Selgita, miks Insertion Sort võib olla tõhusam sellele loendile võrreldes
+täielikult sortimata loendiga.
+
+Alustame sorteerimist 11st (loendi teine liige)
+12 11* 13 5 6 7   -> 12 > 11
+11* 12 13 5 6 7
+
+Jätkame 13'ga
+11 12 13* 5 6 7   -> 12 < 13
+
+5'ga
+11 12 13 5* 6 7    -> 13 > 5
+11 12 5* 13 6 7    -> 12 > 5
+11 5* 12 13 6 7    -> 11 > 5
+5* 11 12 13 6 7
+
+6'ga
+5 11 12 13 6* 7    -> 13 > 6
+5 11 12 6* 13 7    -> 12 > 6
+5 11 6* 12 13 7    -> 11 > 6
+5 6* 11 12 13 7    -> 5 < 6
+
+7'ga
+5 6 11 12 13 7*    -> 13 > 7
+5 6 11 12 7* 13    -> 12 > 7
+5 6 11 7* 12 13    -> 11 > 7
+5 6 7* 11 12 13    -> 6 < 7
+
+Insertion sort on tõhusam sellel loendil kui täielikult sortimata loendil, sest hetkel esimese kahe iteratsiooni korral peab vahetama ainult paari elemendi asukohta.
+Kui näiteks 11 oleks täiesti viimane element listis peaks Insertion Sort kontrollima üle 7, 6, 5, 13 ja ka 12, et saada esimene element paika.
