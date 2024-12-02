@@ -23,6 +23,6 @@ def bin_otsing(massiiv, väärtus):
         return('Elemendi asukohta ei leitud')	#ei ole tagastanud väärtust ning programmi lõpetanud.
 
 
-print(bin_otsing(list,2076))
+print(bin_otsing(list,-1))
         
     
