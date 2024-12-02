@@ -1,0 +1,21 @@
+1. Hashi funktsioon (räsifunktsioon) on mingi matemaatiline funktsioon, mis muudab sisendi mingi kindla suurusega/pikkusega
+koodiks. 
+
+2. Hea räsifunktsioon on kiire arvutada (nt internetis paroolide võrdlemine), ettearvatamatus (raske reverse engineerida),
+täielik segamine (sisend ja väljund on täiesti erinevad, nii et sarnasuste abil ei oleks võimalik pöördlahendada) ning 
+annab erinevaid lahendusi (nt andes räsifunktsiooni numbrid 1-10 ja poolte väljund on 2233, siis on räsi ebaturvaline).
+
+3. Seperate chaining - iga element räsitabelis on mingi räsifunkitsiooni väljund. Kui kaks või enam sisendit annavad sama
+väljundräsi, siis need väärtused lihtsalt salvestatakse massiivi. Kui on vaja väärtust otsida, siis tehakse räsi ning minnakse
+õige räsitabeli pessa ning leitakse väärtus sealt. Väga lihtne lahendus, mis lahendab kokkupõrkeid, küll aga hakkab jõudlus langema,
+kui väärtused hakkavad palju põrkuma ning massiivid lähevad suureks ning nende läbimine väärtuste otsimiseks võtab järjest kauem aega.
+
+Open addressing - Põrkumised lahendatakse teistel viisidel, ei kasutata massiive, vaid leitakse alternatiivne meetod räside salvestamiseks.
+Linear probing - Kui tekib põrge, siis salvestatakse lihtsalt jätgmisesse vabasse pessa räsitabelis, kui 7 on võetud, leitakse järgmine, ehk 8.
+Topelträsimine - Kui räsi väljund on juba räsitabelis võetud, siis kasutame mingit muud räsifunktsiooni, et leida samm või positsioon, kuhu räsi
+väljund sisestada. 
+Quad probing - Sarnaselt linear probinguga otsitakse järgmist vaba pesa, kuid järgmise pesa otsimiseks kasutatakse funktsiooni, nimest 
+tulenevalt ruutu tõstmist, nt on 5 pesa võetud, siis järgmine on mitte 7 + 1 = 8, vaid (7 + 2^2) = 11 , (7 + 3^2) =  16 jne.
+Open addressingu probleemid tulenevad sellest, et Linear probing klasterdab tabeli, sest hakatakse täitma järjestkuseid pesasid
+Väärtuste eemaldamine on keeruline, sest osade väärtuste asukohad sõltusid eelmiste pesade täis olemise tõttu, seetõttu peaks teoreetiliselt 
+tabeli iga kord ümber arvutama, aga tavaliselt jäetakse lihtsalt see pesa tühjaks, et nõnda tegema ei peaks.
