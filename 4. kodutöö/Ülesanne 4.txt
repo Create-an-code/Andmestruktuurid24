@@ -1,0 +1,9 @@
+1. Avatud aadressimine aitab kokkupõrgete lahendamisel, sest kui väärtus on sama jäägiga (modulus), mis oli mingi teine väärtus, siis lisatakse jäägi arvutusse +1 (lineaarse otsingu korral) ning leitakse järgmine koht.
+
+2. Lineaarne otsing on kõige kergem implementeerida ja parima vahemälu jõudlusega, kuid tekitab kõige rohkem klastreid (palju väärtusi järjestikusses reas).
+Ruuduline otsing on keskmise jõudlusega, kuid tekitab ka vähem klasterid.
+Topelträsimine on kõige aeganõudvam, sest kasutab teist funktsiooni (räsi), millega leida vaba indeks. Parim klastrite vältimiseks, aga vähemälu jõudlus kõige halvem.
+
+3. Kui on väärtused järjestikkused ja väiksemad kui tabeli suurus (nt 1,2,3) või räsitabeli suurus on suurem kui suurim väärtus, oleks kõige parem lineaarne otsing, sest väärtused oleksid indeksiga võrdsed.
+Ruuduline otsing on parim kui tahta vähem klastreid ning saada head jõudlust.
+Topelträsimine on parim kui on vaja vältida klastreid ning saada vähem räsi kokkupõrkeid.
