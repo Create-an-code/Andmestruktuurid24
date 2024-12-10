@@ -22,9 +22,9 @@ tekst = tekst.replace('\t', ',')
 tekst = tekst.replace(' ','_')
 
 
-print(tekst)
+
 file = open('Attributes.txt', 'w')
-print(tekst)
+
 file.write(tekst)
 file.close()
 #tegin ühekordseks kaustamiseks, et csv failist kopeeritud andmed saaksid txt faili
