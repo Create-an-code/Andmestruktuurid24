@@ -1,0 +1,42 @@
+
+GK
+['GK', 'Rafael Van der Laan', 2166, 21, '€2.9K']
+
+CB_-_Defend
+['CB_-_Defend', 'Kelechi Christian', 2585, 22, '€195K']
+['CB_-_Defend', 'Baba Fernandes', 2496, 20, '€165K']
+['CB_-_Defend', 'Caio Marcelo', 2442, 22, '€29K']
+['CB_-_Defend', 'Ronaldo', 2425, 33, '€29K']
+['CB_-_Defend', 'Joel Monteiro', 2394, 29, '€13K']
+['CB_-_Defend', 'Pedro Machado', 2355, 24, '€25K']
+['CB_-_Defend', 'Luís Teixeira', 2299, 17, '€12.25K']
+
+CB_-_Technical
+['CB_-_Technical', 'Sávio', 2442, 24, '€7K']
+['CB_-_Technical', 'João Coito', 2411, 30, '€225K']
+['CB_-_Technical', 'Emmanuel Maviram', 2264, 19, '€210']
+['CB_-_Technical', 'Dino Araújo', 2239, 17, '€7.75K']
+
+FB
+['FB', 'David Rosa', 2376, 30, '€55K']
+
+WB
+['WB', 'Tiago André', 2572, 23, '€180K']
+
+Mid_-_Defend
+['Mid_-_Defend', 'Jean Victor', 2488, 24, '€80K']
+['Mid_-_Defend', 'Pedro Videira', 2069, 17, '€8.25K']
+
+Mid_-_BBM
+['Mid_-_BBM', 'Roman Kvet', 2390, 22, '€34.5K']
+
+AM
+['AM', 'Bruninho', 2440, 22, '€250K']
+['AM', 'Wilson Kenidy', 2313, 27, '€155K']
+['AM', 'Mateus Fonseca', 2284, 27, '€100K']
+
+ST_-Technical
+['ST_-Technical', 'Tharcysio', 2635, 22, '€400K']
+['ST_-Technical', 'Kobamelo Kodisang', 2291, 21, '€46K']
+['ST_-Technical', 'Fernando Fonseca', 2185, 17, '€32.5K']
+['ST_-Technical', 'Bruno Ferreira', 1711, 17, '€425']

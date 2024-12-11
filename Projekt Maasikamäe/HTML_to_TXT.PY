@@ -1,4 +1,5 @@
 from bs4 import BeautifulSoup
+import os
 
 def HTML_txt(file):
     temp = file.removesuffix('.html')
@@ -27,4 +28,5 @@ file = open('Attributes.txt', 'w')
 
 file.write(tekst)
 file.close()
+
 #tegin ühekordseks kaustamiseks, et csv failist kopeeritud andmed saaksid txt faili
