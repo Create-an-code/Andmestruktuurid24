@@ -64,3 +64,41 @@ pigeonhole_sort(a)
           
 for i in range(0, len(a)): 
     print(a[i], end =" ")
+
+    
+                                #mängija_tulemuse_list.append()
+                                #print(mängija_tulemuse_list)
+                #print(mängija_tulemuse_list)            
+
+                #for atribuut in mängija_atribuudid:
+
+    #sorteeritud = sorted(lõpp, key=lambda x: x[0])
+    #def sorteeri(lst):
+        #x = [item[0] for item in lst]
+        #x = list(set(x))
+        #return x
+    #print(lõpp)
+
+        # for element in massiiv:
+    #     print(len(element))
+    #     if len(element) == 1:
+    #         lõpumassiv.append(element)
+    #         return(lõpumassiv)
+    #     if len(element) == 0:
+    #         None
+    #         #kui mängijaid on ainult 1 või 0, siis ei ole ju mõtet sortida
+
+    #     else:
+    #         mängijate_kogum = {}
+    #         for player in element:
+    #             print(element)
+    #             print(player)
+    #             print(element[2])
+    #             mängijate_kogum.update({element[2] : element.index(player)})
+    #         peaaegu = sorting(mängijate_kogum)
+    #         kogum = []
+    #         print(peaaegu)
+    #         for i in peaaegu:
+    #             kogum.append(element[i])
+    #         return kogum
+                

@@ -163,5 +163,9 @@ def Skoor(Mängijad):
                 väljundfail.writelines(str(t) + '\n')
     #väljunffaili kirjutamine
 
+#testcode 
+#Skoor('CasaPiaAndmestrukt.html')
 
-Skoor('CasaPiaAndmestrukt.html')
+failinimi = str(input('Sisesta faili nimi, mida tahad: '))
+Skoor(failinimi)
+print('Naisu')
