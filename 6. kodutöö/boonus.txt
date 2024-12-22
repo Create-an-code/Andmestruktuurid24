@@ -1,3 +1,3 @@
-P vs NP probleem on tulnud sellest, et polünoom ajas kontrollitavad probleemid ei pruugi olla lahendatavad polünoomajas. Kui leida, et P=NP, siis kõik turvaalgoritmid on ka reverse-engineeritavad kiiresti. Samal ajal lahendaks see palju optimeerimise probleeme.
+P vs NP probleem on tulnud sellest, et polünoomajas kontrollitavad probleemid ei pruugi olla lahendatavad polünoomajas. Kui leida, et P=NP, siis kõik turvaalgoritmid on ka reverse-engineeritavad kiiresti. Samal ajal lahendaks see palju optimeerimise probleeme.
 
 P vs NP probleemi lahendamine aitaks kaasa turvaalgoritmide parandamisele (kuid järelikult ei saaks olla P=NP või oleksid lahenduseks vajalikud võtmed nii rasked, et leidmine oleks raske) ja lahendaks võimatuna tundunud probleemid.

@@ -1,0 +1,4 @@
+Graafide värvimise probleem on NP probleemide hulka kuuluv probleem - suvalise graafi korral keerukas (polünoomajas lahendust pole leitud). 
+Graafide värvimine aitab jaotada graafi tükkideks, mida saab kasutada optimeerimisel.
+
+Värvides mingid kindlad osad graafis kindlat värvi (nö filtreerimine) saab jaotada võrgukanaleid, nii et tähtsaimad paketid jõuvad kiiremini kohale.
