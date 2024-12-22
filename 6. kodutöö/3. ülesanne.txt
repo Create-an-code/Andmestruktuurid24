@@ -1,0 +1,5 @@
+Djikstra algoritm aitab leida lühima tee algtipust lõpptipuni. Algoritm alustab tööd ainult ühe punktiga ning vaatab kas saab sealt minna otse lõpptippu, kui leiab siis paneb kirja selle teepikkuse.
+Võtab juurde järgmise tipu ning kontrollib selle kaudu teepikkust lõpptippu, jätkab sama loopi kuni leiab lühima/kiireima tee lõppu.
+
+
+Djikstra on eriti efektiivne, kui on kindlast tipust kindlasse tippu minek (nt interneti ühendusel) või kui on tarvis leida kiireim ühendus. Efektiivsus on halb kui on palju tippe kuid nende vahel ühendusi vähe, sest algoritm vaatab teid, millega pole võimalik jõuda välja lõpptippu.
